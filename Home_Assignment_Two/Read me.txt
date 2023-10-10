@@ -1,0 +1,45 @@
+Car Information Filter
+
+This Java program allows you to filter and save a list of cars based on different criteria. You can filter cars by brand, model age, and price. The filtered car information is saved to separate text files.
+
+How to Use:
+
+Compile and run the program by executing the Car.java file.
+
+You will be prompted to enter the desired criteria for filtering the cars.
+
+a. To filter cars by brand, enter the brand name when prompted.
+
+b. To filter cars by model and age, enter the model name and the minimum age (in years) when prompted.
+
+c. To filter cars by year of manufacture and price, enter the year of manufacture and the minimum price when prompted.
+
+The program will save the filtered car information to text files:
+
+a. Filtered cars by brand will be saved in File_a.txt.
+
+b. Filtered cars by model and age will be saved in File_b.txt.
+
+c. Filtered cars by year of manufacture and price will be saved in File_c.txt.
+
+You can view the filtered car information in the respective tsext files.
+
+Sample Usage:
+
+To filter cars by brand, you can enter "Toyota" as the brand name, and it will save all Toyota cars to File_a.txt.
+
+To filter cars by model and age, you can enter "Camry" as the model name and "3" as the minimum age, and it will save all Toyota Camry cars older than 3 years to File_b.txt.
+
+To filter cars by year of manufacture and price, you can enter "2020" as the year and "60000" as the minimum price, and it will save all cars manufactured in 2020 with a price higher than $60,000 to File_c.txt.
+
+
+**Adding New Car Information:**
+
+If you want to add new car information to the program, follow these steps:
+
+1. Open the `Car.java` file.
+
+2. Locate the `main` method within the code, and you will see where cars are added to the `Cars` ArrayList. To add new cars, you can create additional `Car` objects and add them to the list. For example:
+   
+   Cars.add(new Car(7, "Ford", "Mustang", 2021, "Blue", 75000, 1260));
+   Cars.add(new Car(8, "Honda", "Civic", 2020, "Silver", 55000, 1261));
