@@ -1,3 +1,7 @@
+Name: Amr Abdrabo Mohamed Abdrabo Abdelaziz
+Matriculation number: 7216843
+
+
 Car Information Filter
 
 This Java program allows you to filter and save a list of cars based on different criteria. You can filter cars by brand, model age, and price. The filtered car information is saved to separate text files.
